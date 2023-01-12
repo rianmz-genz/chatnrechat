@@ -57,5 +57,27 @@ export const ContentData: ContentDataTypes = {
             description: "With voice calls, you can talk to your friends and family for free*, even if they're in another country. And with free* video calls, you can have face-to-face conversations.",
         },
     ]
-  }
+  },
+  techs: {
+    toptitle: 'TEKNOLOGI YANG DIGUNAKAN',
+    title: 'Teknologi Yang Kami Gunakan Di Dalam Aplikasi Ini Akan Membuat DHH Dan Jason Fried Pensiun! 😱',
+    description: 'Lo bisa bayangin DHH sama Jason Fried aja jadi pensiun gegara aplikasi ini, apalagi lo yang cuma user dan beban kami, gegara lo pake dan daftar di aplikasi ini jadi kita harus bayar server DO tiap bulan, mana pas bayar harus tunjuk-tunjukan. Inilah alasan kenapa gak usah daftar:',
+    technology: [
+        {
+            emoticon: '😠',
+            title: 'Kamu Adalah Beban Kami',
+            description: "Semakin banyak kamu yang mendaftar di aplikasi ini, artinya semakin banyak data yang perlu disimpan, nah kan jadi perlu server gede tuh. Makanya kamu beban!",
+        },
+        {
+            emoticon: '🐨',
+            title: 'Males Buat Ngembangin',
+            description: "Lo bakal nemu bug, entah pesan yang mau dikirim gak bisa dikirim padahal lo belom pencet tombol enter atau masalah lainnya. Nah soal itu kita males buat benerin.",
+        },
+        {
+            emoticon: '😴',
+            title: 'Pokoknya Males Aja Lah',
+            description: "Nggak tau lagi harus ngomong apa, pokoknya males aja sih kita bikin aplikasi chat kek gini. Makannya mending lo pake WhatsApp aja udah.",
+        },
+    ]
+  },
 };

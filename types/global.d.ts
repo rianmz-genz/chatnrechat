@@ -30,6 +30,18 @@ declare interface FeatureSection{
     description: string
     features: Features[]
 }
+// tech
+declare interface Techs{
+    emoticon: string
+    title: string
+    description: string
+}
+declare interface TechSection{
+    toptitle: string
+    title:string
+    description: string
+    technology: Techs[]
+}   
 // props
 declare interface LayoutProps{
     children: ReactNode
@@ -46,4 +58,5 @@ declare interface ContentDataTypes{
     home: Home
     brand: Brands[]
     featuresection: FeatureSection
+    techs: TechSection
 }
