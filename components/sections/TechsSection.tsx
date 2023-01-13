@@ -5,15 +5,15 @@ import { ContentData } from "../../store/ContentData";
 const TechsSection = () => {
   const { techs } = ContentData;
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center lg:flex-row flex-col items-center">
       <Image
-        className="w-6/12"
+        className="lg:w-6/12 w-11/12 mx-auto"
         src="/images/techimage.svg"
         alt="techimage"
         width={100}
         height={100}
       />
-      <div className="w-6/12">
+      <div className="lg:w-6/12 w-11/12 mx-auto">
         <p className="font-description font-semibold mb-3 text-[#0C1B4D]">
           {techs.toptitle}
         </p>

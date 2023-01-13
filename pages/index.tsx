@@ -30,7 +30,7 @@ export default function Home() {
       </section>
       <section
         id="features"
-        className="w-full text-center h-fit min-h-screen flex items-center  bg-gradient-radial  from-[#EEF2FF] via-[#EEF2FF]  to-[#F4F7FF] "
+        className="w-full lg:text-center h-fit min-h-screen flex items-center  bg-gradient-radial  from-[#EEF2FF] via-[#EEF2FF]  to-[#F4F7FF] "
       >
         <Container>
           <FeaturesSection />

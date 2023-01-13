@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const Brands = () => {
   return (
-    <div className="bg-blue-500/5 rounded-md w-full justify-center h-fit my-8 py-8 px-2 flex ">
+    <div className="bg-blue-500/5 rounded-md lg:w-full mx-auto w-11/12 justify-center h-fit lg:my-8 my-4 py-6 lg:py-8 px-2 flex ">
       {ContentData.brand.map((brandlist) => (
         <div
           key={brandlist.imageUrl}
-          className="w-fit px-6 flex items-center justify-center"
+          className="w-fit lg:px-6 px-1 flex items-center justify-center"
         >
           <Image
             src={brandlist.imageUrl}

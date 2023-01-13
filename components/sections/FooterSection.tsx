@@ -6,8 +6,8 @@ const FooterSection = () => {
   const { footer, navbar } = ContentData;
   return (
     <div className="w-full bg-blue-500/5">
-      <div className="w-10/12 mx-auto py-8 flex">
-        <div className="w-6/12 ">
+      <div className="lg:w-10/12 w-11/12 mx-auto py-8 flex flex-col lg:flex-row space-y-6">
+        <div className="lg:w-6/12 ">
           <div className="flex items-center mb-4">
             <Image
               src={footer.brandimage}
@@ -25,7 +25,7 @@ const FooterSection = () => {
             {footer.copyright}
           </p>
         </div>
-        <div className="w-3/12 pl-8">
+        <div className="lg:w-3/12 lg:pl-8">
           <h1 className="font-title mb-6 font-semibold">Sitemap</h1>
           <div className="flex flex-col mt-1">
             {navbar.map((item) => (
@@ -39,7 +39,7 @@ const FooterSection = () => {
             ))}
           </div>
         </div>
-        <div className="w-3/12">
+        <div className="lg:w-3/12">
           <h1 className="font-title mb-6 font-semibold">Tetap Terhubung</h1>
           <p className="mt-1 text-[#0c1b4d99] text-sm w-10/12">
             Lihat kami pansos di sosial media berikut:

@@ -5,13 +5,13 @@ import Image from "next/image";
 const HomeSection = () => {
   const { home } = ContentData;
   return (
-    <div className="mt-10 w-full h-fit py-3 flex justify-center items-center">
-      <div className="w-6/12 ">
-        <p className="text-sm text-[#4A72FF] mb-4">{home.toptitle}</p>
-        <h1 className="text-4xl font-title text-[#0C1B4D]">{home.title}</h1>
-        <p className="mt-4 text-lg">{home.description}</p>
-        <div className="w-8/12 mt-6 flex justify-between">
-          <button className="bg-[#4A72FF] shadow-xl shadow-blue-600/30 text-white flex items-center py-3 px-10 rounded-md">
+    <div className="mt-10 w-full h-fit py-3 flex flex-col-reverse lg:flex-row justify-center items-center">
+      <div className="lg:w-6/12 w-11/12 lg:mt-0 mt-5">
+        <p className="lg:text-sm text-xs text-[#4A72FF] mb-3 lg:mb-4">{home.toptitle}</p>
+        <h1 className="lg:text-4xl text-2xl font-title text-[#0C1B4D]">{home.title}</h1>
+        <p className="my-3 lg:mt-4 lg:text-lg text-sm">{home.description}</p>
+        <div className="lg:w-8/12 w-11/12 mb-3 lg:mt-6 flex lg:justify-between">
+          <button className="bg-[#4A72FF] lg:shadow-xl shadow-lg px-3 shadow-blue-600/30 text-white flex items-center py-1 text-sm lg:text-base lg:py-3 lg:px-10 rounded-md">
             {home.buttonleft}
             <svg
               className="ml-3"
@@ -41,11 +41,11 @@ const HomeSection = () => {
               />
             </svg>
           </button>
-          <button className="bg-blue-500/5 text-blue-500 flex items-center py-3 px-10 rounded-md">
+          <button className="bg-blue-500/5 lg:ml-0 ml-3 text-blue-500 flex items-center px-3 py-2 text-sm lg:text-base lg:py-3 lg:px-10 rounded-md">
             {home.buttonright}
           </button>
         </div>
-        <div className="flex mt-8">
+        <div className="flex mt-6 lg:mt-8">
           <div className="flex">
             <svg
               width="24"
@@ -79,14 +79,14 @@ const HomeSection = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <div className="ml-8 pr-8 border-r">
+            <div className="lg:ml-8 lg:pr-8 ml-3 pr-3 border-r">
               <p className="font-inter font-light text-xs">TOTAL DOUN'TLOUD</p>
-              <p className="font-inter font-bold text-xl text-[#0C1B4D]">
+              <p className="font-inter font-bold text-lg lg:text-xl text-[#0C1B4D]">
                 {home.totaldownloads}
               </p>
             </div>
           </div>
-          <div className="flex ml-7">
+          <div className="flex lg:ml-7 pl-3">
             <svg
               width="24"
               height="25"
@@ -112,7 +112,7 @@ const HomeSection = () => {
               />
             </svg>
 
-            <div className="ml-8 pr-8">
+            <div className="lg:ml-8 ml-3 pr-3 lg:pr-8">
               <p className="font-inter font-light text-xs">TOTAL USERS</p>
               <p className="font-inter font-bold text-xl text-[#0C1B4D]">
                 {home.totalusers}
@@ -126,7 +126,7 @@ const HomeSection = () => {
         alt="main image"
         width={100}
         height={100}
-        className="w-6/12"
+        className="lg:w-6/12 w-11/12"
       />
     </div>
   );

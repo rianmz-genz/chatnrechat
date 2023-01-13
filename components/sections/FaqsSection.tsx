@@ -5,15 +5,15 @@ const FaqsSection = () => {
   const { faq } = ContentData;
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <div className="mt-8 text-center">
+    <div className="mt-8 lg:text-center w-11/12 mx-auto">
       <p className="font-description font-semibold text-sm mb-3 text-[#0C1B4D]">
         {faq.toptitle}
       </p>
       <h1 className="text-2xl font-title text-[#0C1B4D]">{faq.title}</h1>
-      <p className="font-description w-6/12 mx-auto mt-3 text-[#0C1B4D99]">
+      <p className="font-description lg:w-6/12 mx-auto mt-3 text-[#0C1B4D99]">
         {faq.description}
       </p>
-      <div className="mt-9 w-8/12 mx-auto">
+      <div className="lg:mt-9 mt-4 lg:w-8/12 mx-auto">
         {faq.faqs.map((faqitem) => (
           <div
             key={faqitem.title}
