@@ -80,4 +80,44 @@ export const ContentData: ContentDataTypes = {
         },
     ]
   },
+  download: {
+    toptitle: 'DOWNLOAD APLIKASINYA',
+    title: 'Download Aplikasi Chat n’ Rechat Di Play Store, App Store, atau Symbian Store',
+    description: ['Android Version: Mojave+', 'iOS Version: Lolipop+', ' Symbian: 20.04+'],
+  },
+  faq: {
+    toptitle: 'BANYAK YANG NANYA',
+    title: 'Pertanyaan Yang Sering Ditanyain',
+    description: 'Sebenernya pertanyaan-pertanyaan ini kagak ada yang nanya sih, tapi ya ditaruh sini aja siapa tau lo mau baca ‘kan.',
+    faqs: [
+      {
+        title: 'Apakah aplikasi ini sudah dapat izin dari MUI?',
+        description: ''
+      },
+      {
+        title: 'Apakah aplikasi ini gratis?',
+        description: 'Ya gratis dong, masa aplikasi chat aja berbayar sih. Lo kalo nanya yang bener dong. Bayangin aja kalo aplikasi ini berbayar, masa pas chat lo harus bayar setiap karakter. Kalo lo mau bayar mending pake MMS aja dah.'
+      },
+      {
+        title: 'Apakah data saya akan dijual ke agen khusus US?',
+        description: ''
+      },
+      {
+        title: 'Kenapa bumi muter? Apa karena di depan ada yang nikah?',
+        description: ''
+      },
+      {
+        title: 'Gimana caranya supaya si Adrian keterima di start up gede?',
+        description: ''
+      },
+      {
+        title: 'Pertanyaan di atas gabakal ada yang bisa jawab sih',
+        description: ''
+      },
+      {
+        title: 'Kenapa game epep burik, bang?',
+        description: 'Karena saya main juga aaaaaaaaa asiknya bermain game burik'
+      },
+    ]
+  }
 };

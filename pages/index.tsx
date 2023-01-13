@@ -5,6 +5,8 @@ import HomeSection from "../components/sections/HomeSection";
 import Brands from "../components/brands/Brands";
 import FeaturesSection from "../components/sections/FeaturesSection";
 import TechsSection from "../components/sections/TechsSection";
+import DownloadSection from "../components/sections/DownloadSection";
+import FaqsSection from '../components/sections/FaqsSection';
 export default function Home() {
   return (
     <>
@@ -39,6 +41,21 @@ export default function Home() {
       >
         <Container>
           <TechsSection />
+        </Container>
+      </section>
+      <section
+        className="w-full h-fit min-h-screen flex items-center  bg-[#F4F7FF]"
+      >
+        <Container>
+          <DownloadSection />
+        </Container>
+      </section>
+      <section
+        id="faq"
+        className="w-full h-fit min-h-screen bg-[#F4F7FF]"
+      >
+        <Container>
+          <FaqsSection />
         </Container>
       </section>
     </>

@@ -42,6 +42,25 @@ declare interface TechSection{
     description: string
     technology: Techs[]
 }   
+// download
+declare interface Download{
+    toptitle: string
+    title:string
+    description: string[]
+}
+// faq
+declare interface faqs{
+    title: string
+    description: string
+}
+declare interface Faq {
+    toptitle: string
+    title:string
+    description: string
+    faqs: faqs[]
+}
+
+
 // props
 declare interface LayoutProps{
     children: ReactNode
@@ -59,4 +78,6 @@ declare interface ContentDataTypes{
     brand: Brands[]
     featuresection: FeatureSection
     techs: TechSection
+    download: Download
+    faq: Faq
 }

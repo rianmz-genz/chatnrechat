@@ -5,7 +5,7 @@ const FeaturesSection = () => {
     const { featuresection } = ContentData;
   return (
     <>
-      <p className="font-description font-semibold mb-3 text-[#0C1B4D]">
+      <p className="font-description text-sm font-semibold mb-3 text-[#0C1B4D]">
         {featuresection.toptitle}
       </p>
       <h1 className="text-2xl font-title text-[#0C1B4D]">
