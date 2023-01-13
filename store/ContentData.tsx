@@ -119,5 +119,11 @@ export const ContentData: ContentDataTypes = {
         description: 'Karena saya main juga aaaaaaaaa asiknya bermain game burik'
       },
     ]
+  },
+  footer: {
+    brandimage: '/images/icon.svg',
+    brandname: "CHAT N' RECHAT ",
+    description: 'Sebenernya banyak banget aplikasi chatting yang lebih bagus dari ini, maka dari itu lebih baik pake yang lain aja deh ya daripada pake aplikasi yang ini.',
+    copyright: 'COPYRIGHT (C) 2023. DEVELOP BY ADRIAN',
   }
 };

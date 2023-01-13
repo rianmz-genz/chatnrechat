@@ -59,7 +59,13 @@ declare interface Faq {
     description: string
     faqs: faqs[]
 }
-
+// footer
+declare interface Footer{
+    brandimage: string
+    brandname: string
+    description: string
+    copyright: string
+}
 
 // props
 declare interface LayoutProps{
@@ -80,4 +86,5 @@ declare interface ContentDataTypes{
     techs: TechSection
     download: Download
     faq: Faq
+    footer: Footer
 }

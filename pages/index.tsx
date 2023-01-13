@@ -7,6 +7,7 @@ import FeaturesSection from "../components/sections/FeaturesSection";
 import TechsSection from "../components/sections/TechsSection";
 import DownloadSection from "../components/sections/DownloadSection";
 import FaqsSection from '../components/sections/FaqsSection';
+import FooterSection from "../components/sections/FooterSection";
 export default function Home() {
   return (
     <>
@@ -58,6 +59,14 @@ export default function Home() {
           <FaqsSection />
         </Container>
       </section>
+      <footer
+        id="faq"
+        className="w-full h-fit bg-[#F4F7FF]"
+      >
+        <Container>
+          <FooterSection />
+        </Container>
+      </footer>
     </>
   );
 }
