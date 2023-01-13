@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chat n' rechat</title>
+        <title>Chat n&apos; rechat</title>
         <meta name="title" content="CHAT N' RECHAT" />
         <meta name="description" content="Slicing Design By Adrian Aji Septa" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

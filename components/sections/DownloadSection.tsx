@@ -14,7 +14,7 @@ const DownloadSection = () => {
           {download.title}
         </h1>
         {download.description.map((list) => (
-          <p className="lg:w-8/12 mb-1 mx-auto font-description text-white/60">
+          <p key={list} className="lg:w-8/12 mb-1 mx-auto font-description text-white/60">
             <span className="mr-3">•</span>
             {list}
           </p>

@@ -10,7 +10,7 @@ const Navbar = () => {
       <ul className="flex items-center w-full">
         <li className="lg:w-3/12 w-8/12 pl-5 flex items-center">
           <Image src="/images/icon.svg" alt="icon" width={30} height={30} />
-          <p className="font-title font-semibold ml-2 lg:hidden">CHAT N' RECHAT</p>
+          <p className="font-title font-semibold ml-2 lg:hidden">CHAT N&apos; RECHAT</p>
         </li>
         <button onClick={() => setIsMenu(!isMenu)} className="w-4/12 justify-end flex pr-5 lg:hidden">
           <svg

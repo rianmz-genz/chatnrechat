@@ -80,7 +80,7 @@ const HomeSection = () => {
               />
             </svg>
             <div className="lg:ml-8 lg:pr-8 ml-3 pr-3 border-r">
-              <p className="font-inter font-light text-xs">TOTAL DOUN'TLOUD</p>
+              <p className="font-inter font-light text-xs">TOTAL DOUN&apos;TLOUD</p>
               <p className="font-inter font-bold text-lg lg:text-xl text-[#0C1B4D]">
                 {home.totaldownloads}
               </p>
