@@ -13,6 +13,8 @@ export default function Home() {
     <>
       <Head>
         <title>Chat n&apos; rechat</title>
+        <meta name="og:title" content="CHAT N' RECHAT" />
+        <meta name="og:description" content="Slicing Design By Adrian Aji Septa" />
         <meta name="title" content="CHAT N' RECHAT" />
         <meta name="description" content="Slicing Design By Adrian Aji Septa" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
