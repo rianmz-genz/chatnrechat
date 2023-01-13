@@ -9,7 +9,7 @@ const HomeSection = () => {
       <div className="lg:w-6/12 w-11/12 lg:mt-0 mt-5">
         <p className="lg:text-sm text-xs text-[#4A72FF] mb-3 lg:mb-4">{home.toptitle}</p>
         <h1 className="lg:text-4xl text-2xl font-title text-[#0C1B4D]">{home.title}</h1>
-        <p className="my-3 lg:mt-4 lg:text-lg text-sm">{home.description}</p>
+        <p className="my-3 lg:mt-4 lg:text-lg text-sm text-[#0C1B4D99]">{home.description}</p>
         <div className="lg:w-8/12 w-11/12 mb-3 lg:mt-6 flex lg:justify-between">
           <button className="bg-[#4A72FF] lg:shadow-xl shadow-lg px-3 shadow-blue-600/30 text-white flex items-center py-1 text-sm lg:text-base lg:py-3 lg:px-10 rounded-md">
             {home.buttonleft}
