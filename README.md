@@ -31,18 +31,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for 
 
-        //   homebackground: '#F4F7FF',
-        //   primary: '#4A72FF',
-        //   primarylight: 'rgba(74, 114, 255,0.05)',
-        //   bayangan: 'rgba(74, 114, 255, 0.25)',
-        //   dark: '#0C1B4D',
-        //   darklight: 'rgba(12, 27, 77, 0.6)',
+Hallo semuanya 
 
-              fontFamily: {
-        jakarta: ['Plus Jakarta Sans'],
-        title: ['DM Sans'],
-        description: ['Source Sans Pro'],
-        inter: ['Inter'],
-      },
+Saya Adrian Aji Septa mahasiswa baru 2022 yang switch career dari designer ke programmer khususnya frontend yang sedikit nyambung, dan setelah 3 bulan belajar saya baru bisa bikin beberapa project dan salah satu nya ini, semoga saya bisa jadi frontend dev sungguhan aamiin wkwk malah curhat.
+
+Tools:
+
+- Tailwindcss,
+- NextJs(react),
+- Typescript,
+- Aos Animation.
+
+Demo: https://chatnrechat.vercel.app
+Repo: https://github.com/rianmz-genz/chatnrechat
+Design: https://www.figma.com/file/cP3o0Rq5eclXUQDesHFOVK/Chat-n'-Rechat?node-id=225%3A2&t=VCMx06ArOT27uI0O-1 
+
+Terimakasih  :wpugege:
