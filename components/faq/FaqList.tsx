@@ -5,7 +5,6 @@ const FaqList: FC<FaqProps> = ({ description, title }) => {
 
   return (
     <div
-      data-aos="fade-left"
       key={title}
       className={`relative w-full text-start px-4 rounded-lg mb-2 py-2 ${
         isOpen ? "bg-blue-500 text-white shadow-lg  shadow-blue-500/60 " : ""
