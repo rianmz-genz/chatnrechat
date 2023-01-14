@@ -76,6 +76,10 @@ declare interface CardProps{
     title: string
     description: string
 }
+declare interface FaqProps{
+    description: string
+    title: string
+}
 
 // contentData declare
 declare interface ContentDataTypes{

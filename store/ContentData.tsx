@@ -92,7 +92,7 @@ export const ContentData: ContentDataTypes = {
     faqs: [
       {
         title: 'Apakah aplikasi ini sudah dapat izin dari MUI?',
-        description: ''
+        description: 'Jelazz karena aplikasi ini malahan di suruh oleh mui itu sendiri'
       },
       {
         title: 'Apakah aplikasi ini gratis?',
@@ -100,19 +100,19 @@ export const ContentData: ContentDataTypes = {
       },
       {
         title: 'Apakah data saya akan dijual ke agen khusus US?',
-        description: ''
+        description: 'Bisa jadi iya karena kurangnya literasi baca di negeri wakanda'
       },
       {
         title: 'Kenapa bumi muter? Apa karena di depan ada yang nikah?',
-        description: ''
+        description: 'Kayaknya bukan karena ada yang nikah tapi karena ada gaya gravitasi yang sukanya makan tahu bulat iya gw ngarang.'
       },
       {
-        title: 'Gimana caranya supaya si Adrian keterima di start up gede?',
-        description: ''
+        title: 'Gimana caranya supaya si Adrian keterima di start up?',
+        description: 'Si Adrian ini sebenernya mungkin udah jago tapi daftar dimana mana ga pernah dilirik karena orangnya kurang bisa "nawarin diri" mungkin.'
       },
       {
-        title: 'Pertanyaan di atas gabakal ada yang bisa jawab sih',
-        description: ''
+        title: 'Apakah multichat itu ada?',
+        description: 'Menurut sains sih bisa ya karena tinggal tambah chat yang lainya.'
       },
       {
         title: 'Kenapa game epep burik, bang?',

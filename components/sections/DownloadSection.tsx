@@ -1,11 +1,16 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { ContentData } from "../../store/ContentData";
-
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 const DownloadSection = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   const { download } = ContentData;
   return (
-    <div className="w-full bg-blue-500 py-8  flex flex-col-reverse lg:flex-row lg:rounded-3xl items-center text-white shadow-2xl shadow-blue-500/60">
+    <div data-aos="zoom-in-up" className="w-full bg-blue-500 py-8  flex flex-col-reverse lg:flex-row lg:rounded-3xl items-center text-white shadow-2xl shadow-blue-500/60">
       <div className="lg:w-7/12 mt-4 w-11/12 mx-auto">
         <p className="lg:w-8/12 mb-5 mx-auto font-description">
           {download.toptitle}
