@@ -40,7 +40,7 @@ export default function Home() {
       </section>
       <section
         id="tech"
-        className="w-full h-fit min-h-screen flex items-center  bg-[#F4F7FF]"
+        className="w-full h-fit min-h-screen flex items-center  bg-[#F4F7FF] overflow-x-hidden"
       >
         <Container>
           <TechsSection />

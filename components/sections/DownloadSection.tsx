@@ -10,7 +10,7 @@ const DownloadSection = () => {
   });
   const { download } = ContentData;
   return (
-    <div data-aos="zoom-in-up" className="w-full bg-blue-500 py-8  flex flex-col-reverse lg:flex-row lg:rounded-3xl items-center text-white shadow-2xl shadow-blue-500/60">
+    <div data-aos="zoom-in-up" className="w-full bg-blue-500 py-8 lg:py-0  flex flex-col-reverse lg:flex-row lg:rounded-3xl items-center text-white shadow-2xl shadow-blue-500/60">
       <div className="lg:w-7/12 mt-4 w-11/12 mx-auto">
         <p className="lg:w-8/12 mb-5 mx-auto font-description">
           {download.toptitle}
