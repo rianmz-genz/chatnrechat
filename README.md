@@ -21,4 +21,3 @@ Repo: https://github.com/rianmz-genz/chatnrechat
 Design: https://www.figma.com/file/cP3o0Rq5eclXUQDesHFOVK/Chat-n'-Rechat?node-id=225%3A2&t=VCMx06ArOT27uI0O-1 
 
 Terimakasih  :wpugege:
-stay calm broo!
