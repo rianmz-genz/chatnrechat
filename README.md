@@ -12,7 +12,7 @@ Tools:
 - Tailwindcss,
 - NextJs(react),
 - Typescript,
-- Aos Animation.
+- Aos Animation.ss
 
 Demo: https://chatnrechat.vercel.app
 <br/>
